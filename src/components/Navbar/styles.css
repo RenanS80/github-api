@@ -1,0 +1,11 @@
+header {
+    height: 65px;
+}
+
+.container {
+    height: 100%;
+}
+
+header h3 {
+    color: var(--white);
+}

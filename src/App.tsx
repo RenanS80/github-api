@@ -1,8 +1,14 @@
+import './assets/styles/custom.scss';
 import './App.css';
+import Home from './pages/Home';
+import SearchProfile from './pages/SearchProfile';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <SearchProfile />
+    </>
+
   );
 }
 
