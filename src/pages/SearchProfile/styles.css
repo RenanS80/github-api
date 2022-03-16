@@ -1,0 +1,25 @@
+main .container {
+    border-radius: 16px;
+    margin-top: 55px;     
+}
+
+.search-inside-container {
+    padding: 55px 30px;
+}
+
+form {
+    margin-top: 18px;
+}
+
+form input {
+    padding: 8px 18px;
+    margin-bottom: 25px;
+    color: var(--gray-200);
+    border-radius: 8px;
+    border: 1px solid var(--gray-200);
+}
+
+input:active,
+input:focus {
+	outline-color: var(--outline-border);
+}
