@@ -1,0 +1,18 @@
+footer {
+    height: 65px;
+    width: 100%;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-credit p {
+    margin: 0;
+}
+
+.contact .linkedin{
+    margin-right: 25px;
+}

@@ -1,11 +1,19 @@
 import './styles.css';
 
-function ResultCard() {
+type Props = {
+    avatar_url: string;
+    url: string;
+    followers: number;
+    location: string;
+    name: string;
+}
+
+function ResultCard({ avatar_url, url, followers, location, name } : Props) {
     return (
-        <section className="section-card">
+        <div className="section-card">
             <div className="container bg-light">
                 <div className="profile-image">
-                    <img src="https://avatars.githubusercontent.com/u/27973894?v=4" className="img-fluid" alt="Imagem de perfil" />
+                    <img src={avatar_url} className="img-fluid" alt={name} />
                 </div>
 
                 <div className="profile-info-container">
@@ -17,29 +25,29 @@ function ResultCard() {
                         <div className="profile-url">
                             <p>Perfil: </p>
                             <span>
-                                <a href="https://api.github.com/users/renans80">https://api.github.com/users/renans80</a>
+                                <a href={url}>{url}</a>
                             </span>
                         </div>
 
                         <div className="profile-followers">
                             <p>Seguidores: </p>
-                            <span>4379</span>
+                            <span>{followers}</span>
                         </div>
 
                         <div className="profile-location">
                             <p>Localidade: </p>
-                            <span>São Gonçalo</span>
+                            <span>{location}</span>
                         </div>
 
                         <div className="profile-name">
                             <p>Nome: </p>
-                            <span>Renan Soares</span>
+                            <span>{name}</span>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 

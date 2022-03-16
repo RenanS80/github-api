@@ -68,7 +68,7 @@
 
 /* -- MEDIA QUERIES -- */
 @media (max-width: 767px) {
-    section .container {
+    .section-card .container {
         flex-direction: column;
         padding: 43px 12px;
     }

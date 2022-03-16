@@ -1,10 +1,14 @@
-main .container {
-    border-radius: 16px;
-    margin-top: 55px;     
+main {
+    min-height: calc(100vh - 185px); 
+}
+
+main .main-container {
+    margin-top: 55px;    
 }
 
 .search-inside-container {
     padding: 55px 30px;
+    border-radius: 16px;
 }
 
 form {
@@ -14,7 +18,7 @@ form {
 form input {
     padding: 8px 18px;
     margin-bottom: 25px;
-    color: var(--gray-200);
+    color: var(--gray);
     border-radius: 8px;
     border: 1px solid var(--gray-200);
 }
