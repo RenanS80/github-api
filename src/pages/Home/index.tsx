@@ -1,22 +1,18 @@
 import Button from '../../components/Button';
-import Navbar from '../../components/Navbar';
+
 import './styles.css';
 
 function Home() {
     return (
-        <>
-            <Navbar />
-
-            <section>
-                <div className="container">
-                    <div className="home-content">
-                        <h1>Desafio GitHub API</h1>
-                        <h3>Bootcamp Spring React - DevSuperior</h3>
-                    </div>
-                    <Button text="Começar" />
+        <section className="home-section">
+            <div className="container">
+                <div className="home-content">
+                    <h1>Desafio GitHub API</h1>
+                    <h3>Bootcamp Spring React - DevSuperior</h3>
                 </div>
-            </section>
-        </>
+                <Button text="Começar" />
+            </div>
+        </section>
     );
 }
 

@@ -1,4 +1,4 @@
-section .container {
+.section-card .container {
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -2,7 +2,7 @@ import './styles.css';
 
 function ResultCard() {
     return (
-        <section>
+        <section className="section-card">
             <div className="container bg-light">
                 <div className="profile-image">
                     <img src="https://avatars.githubusercontent.com/u/27973894?v=4" className="img-fluid" alt="Imagem de perfil" />

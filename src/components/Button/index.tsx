@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 type Props = {
@@ -7,7 +8,9 @@ type Props = {
 function Button({ text }: Props){
     return(
         <div>
-            <a href="link" className="btn btn-primary btn-custom" role="button">{text}</a>
+            {text === 'Começar' ? 
+            <Link to="/search" className="btn btn-primary btn-custom" role="button">{text}</Link> : 
+            <button type="submit" className="btn btn-primary btn-custom">{text}</button>}
         </div>
     );
 }

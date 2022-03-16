@@ -1,13 +1,10 @@
 import Button from '../../components/Button';
-import Navbar from '../../components/Navbar';
 import ResultCard from '../../components/ResultCard';
 import './styles.css';
 
-function SearchProfile() {
+function SearchUser() {
     return (
         <>
-            <Navbar />
-
             <main>
                 <div className="container bg-secondary">
                     <div className="search-inside-container">
@@ -28,4 +25,4 @@ function SearchProfile() {
     );
 }
 
-export default SearchProfile;
+export default SearchUser;
