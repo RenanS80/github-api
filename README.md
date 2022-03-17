@@ -13,6 +13,7 @@ Esta aplicação consome a API do GitHub e exibe algumas informações dos usuá
 Foram utilizadas as seguintes tecnologias:
 
 * React + React Router DOM
+* Typescript
 * Axios
 * Bootstrap 5
 
